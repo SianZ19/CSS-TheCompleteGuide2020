@@ -1,0 +1,27 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    color: darkblue;
+    font-family: sans-serif;
+}
+
+li + li {
+    background-color: black;
+    color: white;
+}
+
+ol > li {
+    background-color: black;
+    color: white;
+}
+
+code {
+    font-family: monospace;
+    color: red;
+}
+
+.secondlistcode {
+    color: purple;
+}
