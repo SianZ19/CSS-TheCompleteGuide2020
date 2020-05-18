@@ -1,0 +1,32 @@
+#first-box {
+    padding: 20px 30px 10px 5px;
+    margin: 20px 0px;
+    border: 3px dashed green;
+    height: 300px;
+    width: 49%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+#second-box {
+    padding: 20px 30px 10px 5px;
+    margin: 5px 0px;
+    border: 3px dashed green;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 49%;
+}
+
+div:last-of-type:hover {
+    background-color: black;
+    color: white;
+}
+
+/*
+Set an element to a height of 100% of the window height:
+  set the element {height: 100%; box-sizing: border-box; }
+  also!!
+  body, html {
+      height: 100%;
+  }
+*/

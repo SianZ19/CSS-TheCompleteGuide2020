@@ -11,24 +11,37 @@
     <h1>Assignment - Diving Deeper into CSS</h1>
     <ol>
         <li>Build a nice box (<code>div</code>) with some content (e.g. "I'm a box!"), padding, a border (style it as you want) and some margin.</li>
+        <div id="first-box">
+            <p>Here is the box</p>
+        </div>
+        <div id="second-box">
+            <p>Here is the second box</p>
+        </div>
         <li>If you didn't do it already: Set different padding and margin for the four different sides of the box.</li>
         <li>Add the same box below the first box and note if you can identify any strange behavior.</li>
+        <br>
+        <p>
+            If not put <code>p</code> tags around the content, the second
+            box's top margin was combined with the frist box's bottom
+            margin, so that the space between the two boxes' border was
+            just 25px, a.k.a the bottom margin of the first-box
+        </p>
+        <p>
+            It's called <b>margin collapse</b>
+        </p>
+
+        <br>
         <li>Give the first box a height of 100% of the window height.</li>
         <li>Set the first box back to a more reasonable height of 300px and set its width to 50%.</li>
         <li>Position the two boxes next to each other.</li>
+        <br>
+        <p>Use <code>display: inline-block;</code> </p>
+        <br>
         <li>"Hide" box number 1 and see how that changes the page.</li>
+        <br>
+        <p>Use <code>display: none;</code> to "hide" the box</p>
+        <br>
         <li>Add a hover effect to the the LAST <code>div</code> element. Use pseudo-classes for that.</li>
     </ol>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
